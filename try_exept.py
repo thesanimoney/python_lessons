@@ -1,12 +1,10 @@
 try:
-  f = open("myfile.txt", 'x')
+  f = open("demofile.txt")
   try:
-    f.write('My file content bla bla bla')
+    f.write("Lorum Ipsum")
   except:
     print("Something went wrong when writing to the file")
   finally:
-    f = open('myfile.txt', 'r')
-    print(f.read())
     f.close()
 except:
   print("Something went wrong when opening the file")
