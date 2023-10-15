@@ -24,10 +24,8 @@ s2 = Square(6)
 c2 = Circle(5)
 c3 = Circle(1)
 
-list = [s1, c1, s2, c2, c3]
+print(c1.getArea())
 
-for i in  list:
-    print(i)
 
 
 
