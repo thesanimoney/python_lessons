@@ -14,7 +14,7 @@ def check(username, password, enteredUsername, enteredPassword):
 
 check(username, password, enteredUsername, enteredPassword)"""
 
-class Login:
+"""class Login:
 
     username = input('Please enter your username ')
     password = input('Please enter your password ')
@@ -33,3 +33,4 @@ class Login:
 
 
 user1 = Login()
+"""
