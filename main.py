@@ -133,8 +133,8 @@ class MemoryStream(Stream):
         print('Reading data from memory stream')
 
 mstream = MemoryStream()
-stream = Stream()
-stream.open()
+
+
 
 
 
